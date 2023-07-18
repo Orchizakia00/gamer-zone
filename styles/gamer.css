@@ -321,9 +321,29 @@
     /* play games responsive design */
     .play-games{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .play-games-content{
         text-align: center;
+        width: 100%;
+    }
+    .play-games-content h1, .play-games-content p{
+        text-align: center;
+        width: 45%;
+    }
+    .play-games-img {
+        width: 100%;
+        margin: 0 auto;
+        /* padding-left: 30px; */
+    }
+    .first-img{
+        width: 80%;
+        height: auto;
+    }
+    .second-img{
+        width: 60%;
+        height: auto;
     }
 }
 
