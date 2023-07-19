@@ -263,7 +263,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    row-gap: 30px;
+    row-gap: 50px;
     margin: 0px 50px;
     padding-top: 50px;
     flex-wrap: wrap;
@@ -293,8 +293,10 @@
 .single-icon:hover {
     border-radius: 50px;
     border: 2px solid rgb(244, 87, 165);
-    color: rgb(244, 87, 165);
     cursor: pointer;
+}
+.single-icon p:hover {
+    color: rgb(244, 87, 165);
 }
 
 /* footer design */
@@ -332,11 +334,12 @@
     font-weight: 600;
 }
 
-.social-btn {
+.social-btn a{
     display: inline-flex;
     padding: 30px;
     align-items: flex-start;
     gap: 30px;
+    cursor: pointer;
 }
 
 .fa-brands {
@@ -618,7 +621,7 @@
     .banner-list li {
         font-size: 18px;
         list-style: none;
-        /* padding-left: 130px; */
+        padding-left: 250px;
     }
 
     .banner-img img {
@@ -629,12 +632,11 @@
 
     .btn-main {
         font-size: 15px;
-        /* width: 100px; */
     }
 
     #btn-1 {
 
-        margin: 20px 10px 20px 200px;
+        margin: 20px 10px 20px 250px;
     }
 
     /* online games responsive design */
@@ -663,6 +665,9 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+    }
+    .online-games img{
+        margin-left: 50px;
     }
 
     /* play games responsive design */
@@ -742,6 +747,7 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
+        margin-left: 30px;
     }
 
     .links a {
@@ -753,12 +759,15 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: auto;
+        
+        margin-left: 40px;
     }
 
     .information {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: auto;
+        margin-left: 50px;
     }
 
     .information a {
